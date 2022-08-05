@@ -14,12 +14,12 @@ To make the diagnosis process more efficient and accurate, we're going to build 
 ## Data Understanding 
 For this project, we worked with 6000 chest X-ray images of pediatric patients from one to five years old found from ["Kaggle"](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia). This data was collected from the Guangzhou Women and Children's Medical Center in Guangzhou, China. The data has already been split into training, validation and testing sets, but the validation set was extremely small (8 images), so we combined all images into one folder and performed our own train, validation, test split. Approximately 75% of the images in our dataset belonged to those with pneumonia. Given that our dataset is images, there was very little data cleaning to perform, and we were able to jump straight into creating our neural network for classification of chest x-ray images. 
 
-![](DistributionOfImages.png)
+![](images/DistributionOfImages.png)
 
 ## Modeling and Results
 In this project, we're trying to identify whether the input image is pneumonia or not. We built several Convolutional Neural Network (CNN) models to make the classification. We trained our model with training data and validated our models using validation data. Then based on the validation score, we choose our best model and ran that best model with testing data to get our final result. We built 12 CNN models in this project and among all the models, our 7th CNN had the best training and validation score when looking at accuracy and recall. So we used this model as our best model and ran the test using testing data. Our best model achieved 95.2 % accuracy and 98.1% recall on unseen test data. This recall score means that for every 50 X-Ray images belonging to patients with pneumonia, our model only misclassifies one of these images, which is very good. 
 
-![](simplewaffleplot.png)
+![](images/simplewaffleplot.png)
 
 ## Conclusion & Next Steps
 In conclusion, our best model did very well at identifying the pneumonia images with 95.7 % accuracy and 97.3% recall. We care most about the recall score because this represents how well our model does at predicting the class of images belonging to those with pneumonia. Given our business case, false negatives (patient has pneumonia but we classify them as healthy) are much more dangerous than false positives (patient is healthy but we classify them as having pneumonia).
