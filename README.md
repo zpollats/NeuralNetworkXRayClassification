@@ -9,6 +9,8 @@ According to the World Health Organization, there are 156 million cases of pneum
 
 Pneumonia continues to be one of the leading causes of death among children across the globe. The death rates for pneumonia are highest in South Asia and sub-Saharan Africa. According to Unicef, almost 800,000 children died in 2019 from pneumonia, and pneumonia accounts for 14% of all deaths among children 5 years and younger. Given these sobering statistics, it is vital that doctors can quickly identify those with pneumonia to treat it as soon as possible. As the WHO explains, “effective diagnosis and treatment of pneumonia is critical to improve child survival.”
 
+"The deaths in just 5 countries — India, Nigeria, Pakistan, the Democratic Republic of Congo, and Ethiopia – accounted for more than half of all deaths from childhood pneumonia in 2019." (https://ourworldindata.org/pneumonia)
+
 To make the diagnosis process more efficient and accurate, we're going to build a machine learning model that can identify whether the input X-ray image is pneumonia or not. Once we have our model, we will cooperate with the WHO to deploy our model in areas around the world that need this help the most.
 
 ## Data Understanding 
