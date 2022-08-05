@@ -1,6 +1,6 @@
 # X-ray Image Classification for Pneumonia
 
-![Pneumonia_Worldwide](/images/Pneumonia.png)
+![Pneumonia_Worldwide]((https://ourworldindata.org/grapher/pneumonia-death-rates-age-standardized))
 
 ## Overview 
 Pneumonia is an infection in one or both lungs which makes people have difficulty breathing. It can be a medical emergency, especially among high-risk groups like people over 65 and children 5 or younger, whose immune systems are relatively weaker. Therefore, it is crucial to identify pneumonia in a more efficient and accurate way, so that we can have treatment in the early stage.
