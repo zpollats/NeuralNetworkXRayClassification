@@ -16,7 +16,7 @@ For this project, we worked with 6000 chest X-ray images of pediatric patients f
 ## Modeling and Results
 In this project, we're trying to identify whether the input image is pneumonia or not. We built several Convolutional Neural Network (CNN) models to make the classification. We trained our model with training data and validated our models using validation data. Then based on the validation score, we choose our best model and ran that best model with testing data to get our final result. We built 12 CNN models in this project and among all the models, our 7th CNN had the best training and validation score when looking at accuracy and recall. So we used this model as our best model and ran the test using testing data. Our best model achieved 95.2 % accuracy and 98.1% recall on unseen test data. This recall score means that for every 50 X-Ray images belonging to patients with pneumonia, our model only misclassifies one of these images, which is very good. 
 
-![](images/simplewaffleplot.png)
+![](simplewaffleplot.png)
 
 ## Conclusion & Next Steps
 In conclusion, our best model did very well at identifying the pneumonia images with 95.7 % accuracy and 97.3% recall. We care most about the recall score because this represents how well our model does at predicting the class of images belonging to those with pneumonia. Given our business case, false negatives (patient has pneumonia but we classify them as healthy) are much more dangerous than false positives (patient is healthy but we classify them as having pneumonia).
